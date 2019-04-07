@@ -16,7 +16,7 @@ class BufferNames
 public:
     BufferNames();
     ~BufferNames();
-    void readFileNames(QString strNameFile);
+    void readFileNames(const QString strNameFile);
     QStringList *getStringListAllNames();
     QStringList *getStringListPalindromeNames();
     int getNumberAllNames();

@@ -11,9 +11,6 @@ Widget::Widget(QWidget *parent)
 {
     buffer.readFileNames(qApp->applicationDirPath() + "/namesRusOutput=UTF-8.txt");
 
-    qDebug() << buffer.getNumberAllNames() << "Text" << endl;
-    qDebug() << qApp->applicationDirPath() + "/namesRusOutput=UTF-8.txt" << endl;
-
     setNamesOnlistWidgetAll();
     setNamesOnlistWidgetPalindrome();
 
